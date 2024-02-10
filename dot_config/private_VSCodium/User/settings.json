@@ -1,0 +1,170 @@
+{
+	"[css]": {
+		"editor.defaultFormatter": "MikeBovenlander.formate"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"C_Cpp.clang_format_fallbackStyle": "Google",
+	"C_Cpp.clang_format_style": "{BasedOnStyle: Google, TabWidth: 2, IndentWidth: 2, UseTab: Always, ColumnLimit: 0, AlignTrailingComments: false}",
+	"C_Cpp.formatting": "vcFormat",
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+	"color-highlight.languages": [
+		"*"
+	],
+	"color-highlight.matchWords": true,
+	"cSpell.userWords": [],
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.fontFamily": "'Fira Code', 'Source Code Pro', Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.glyphMargin": false,
+	"editor.inlineSuggest.enabled": true,
+	"editor.insertSpaces": false,
+	"editor.maxTokenizationLineLength": 1000000,
+	"editor.minimap.enabled": false,
+	"editor.mouseWheelScrollSensitivity": 4,
+	"editor.renderWhitespace": "none",
+	"editor.smoothScrolling": true,
+	"editor.suggestSelection": "first",
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"extensions.ignoreRecommendations": false,
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"formate.verticalAlignProperties": false,
+	"github.copilot.enable": {
+		"*": true,
+		"markdown": false,
+		"plaintext": false,
+		"scminput": false,
+		"tex": false,
+		"yaml": false
+	},
+	"java.semanticHighlighting.enabled": true,
+	"javascript.format.semicolons": "insert",
+	"javascript.preferences.importModuleSpecifierEnding": "index",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.suggest.completeFunctionCalls": true,
+	"jupyter.jupyterServerType": "local",
+	"markdown.preview.lineHeight": 1.5,
+	"python.formatting.autopep8Args": [
+		"--indent-size=2",
+		"--indent-string=\"\\t\""
+	],
+	"python.formatting.provider": "yapf",
+	"python.formatting.yapfArgs": [
+		"--style",
+		"{based_on_style: pep8, indent_width: 2, use_tabs: True, column_limit: 120}"
+	],
+	"python.showStartPage": false,
+	"remote.SSH.remotePlatform": {},
+	"rewrap.wrappingColumn": 10000,
+	"security.workspace.trust.untrustedFiles": "open",
+	"sync.autoDownload": true,
+	"sync.autoUpload": true,
+	"sync.gist": "1f8ec6e0c8c73151159d307a9f7f32da",
+	"sync.quietSync": true,
+	"tailwindCSS.rootFontSize": 14,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+	"terminal.integrated.profiles.windows": {
+		"Command Prompt": {
+			"args": [],
+			"icon": "terminal-cmd",
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			]
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"PowerShell": {
+			"icon": "terminal-powershell",
+			"source": "PowerShell"
+		},
+		"Ubuntu (WSL)": {
+			"args": [
+				"-d",
+				"Ubuntu"
+			],
+			"path": "C:\\windows\\System32\\wsl.exe"
+		}
+	},
+	"terminal.integrated.scrollback": 10000,
+	"typescript.locale": "en",
+	"typescript.preferences.quoteStyle": "single",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.restoreWindows": "preserve",
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": -0.75,
+	// "workbench.colorCustomizations": {
+	// 	// Transparent
+	// 	"tab.activeBorder": "#ffffff00",
+	// 	"tab.inactiveModifiedBorder": "#ffffff00",
+	// 	// TW Rose 500
+	// 	"statusBarItem.remoteBackground": "#F43F5E",
+	// 	"activityBarBadge.background": "#F43F5E",
+	// 	"button.background": "#F43F5E",
+	// 	"focusBorder": "#F43F5E",
+	// 	"tab.activeBorderTop": "#F43F5E",
+	// 	"selection.background": "#F43F5E",
+	// 	"list.activeSelectionBackground": "#F43F5E",
+	// 	"textLink.activeForeground": "#F43F5E",
+	// 	// TW Rose 400
+	// 	"textLink.foreground": "#FB7185",
+	// 	"tab.activeModifiedBorder": "#FB7185",
+	// 	"notificationLink.foreground": "#FB7185",
+	// 	// Base 400
+	// 	"tab.activeBackground": "#202020",
+	// 	"editorGroupHeader.tabsBorder": "#202020",
+	// 	"breadcrumb.background": "#202020",
+	// 	"menu.background": "#202020",
+	// 	"menubar.selectionBackground": "#202020",
+	// 	// Base 300
+	// 	"activityBar.background": "#161616",
+	// 	"titleBar.activeBackground": "#161616",
+	// 	// Base 200
+	// 	"statusBar.background": "#101010",
+	// 	"statusBar.noFolderBackground": "#101010",
+	// 	"sideBar.background": "#101010",
+	// 	"tab.inactiveBackground": "#101010",
+	// 	"editorGroupHeader.tabsBackground": "#101010",
+	// 	// Base 100
+	// 	"editor.background": "#030303",
+	// 	// Base content
+	// 	"editor.foreground": "#fff",
+	// 	"tab.activeForeground": "#fff",
+	// 	"disabledForeground": "#eee",
+	// 	// "icon.foreground": "#fff",
+	// 	// "titleBar.inactiveBackground": "#0f0",
+	// },
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.titleScrollbarSizing": "large",
+	"workbench.editor.wrapTabs": true,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+	"workbench.iconTheme": "catppuccin-mocha",
+	"workbench.list.smoothScrolling": true,
+	"workbench.panel.defaultLocation": "right",
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.statusBar.feedback.visible": false
+}

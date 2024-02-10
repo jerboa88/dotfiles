@@ -1,0 +1,65 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	// Toggle between terminal and editor focus
+	{
+		"key": "ctrl+m",
+		"command": "workbench.action.terminal.focus"
+	},
+	{
+		"key": "ctrl+m",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+alt+z",
+		"command": "editor.action.indentationToTabs"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "workbench.action.showAllSymbols"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "-workbench.action.showAllSymbols"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.files.newUntitledFile"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "-workbench.action.files.newUntitledFile"
+	},
+	{
+		"key": "ctrl+shift+/",
+		"command": "editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+a",
+		"command": "-editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+tab",
+		"command": "workbench.action.nextEditor"
+	},
+	{
+		"key": "ctrl+shift+tab",
+		"command": "workbench.action.previousEditor"
+	},
+	{
+		"key": "ctrl+capslock",
+		"command": "editor.action.transformToUppercase",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+capslock",
+		"command": "editor.action.transformToLowercase",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+\\",
+		"command": "openInTerminal"
+	}
+]
