@@ -1,0 +1,3 @@
+{:logseq-awesome-links {:version "v1.15.16", :repo "yoyurec/logseq-awesome-links", :effect true, :theme false}
+ :logseq-todo-master {:version "v1.10.3", :repo "pengx17/logseq-plugin-todo-master", :effect false, :theme false}
+ :logseq-awesome-content {:version "v1.2.1", :repo "yoyurec/logseq-awesome-content", :effect true, :theme false}}
