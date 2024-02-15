@@ -36,7 +36,7 @@
 	"editor.maxTokenizationLineLength": 1000000,
 	"editor.minimap.enabled": false,
 	"editor.mouseWheelScrollSensitivity": 4,
-	"editor.renderWhitespace": "none",
+	"editor.renderWhitespace": "boundary",
 	"editor.smoothScrolling": true,
 	"editor.suggestSelection": "first",
 	"editor.tabSize": 2,
@@ -155,7 +155,7 @@
 	// 	// "icon.foreground": "#fff",
 	// 	// "titleBar.inactiveBackground": "#0f0",
 	// },
-	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.colorTheme": "Cherry Midnight",
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.editor.titleScrollbarSizing": "large",
 	"workbench.editor.wrapTabs": true,
@@ -166,5 +166,7 @@
 	"workbench.list.smoothScrolling": true,
 	"workbench.panel.defaultLocation": "right",
 	"workbench.startupEditor": "newUntitledFile",
-	"workbench.statusBar.feedback.visible": false
+	"workbench.statusBar.feedback.visible": false,
+	"workbench.editor.showTabs": "none",
+	"diffEditor.ignoreTrimWhitespace": false
 }
