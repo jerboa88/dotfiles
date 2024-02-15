@@ -1,6 +1,6 @@
 [Default Applications]
-x-scheme-handler/http=com.brave.Browser.desktop
-x-scheme-handler/https=com.brave.Browser.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
 text/plain=codium.desktop
 application/xml=codium.desktop
 application/json=codium.desktop
@@ -154,6 +154,9 @@ video/x-flic=org.videolan.VLC.desktop
 video/x-mng=org.videolan.VLC.desktop
 video/x-ms-afs=org.videolan.VLC.desktop
 video/x-ms-wvxvideo=org.videolan.VLC.desktop
+text/html=brave-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
 
 [Added Associations]
 x-scheme-handler/http=com.brave.Browser.desktop;
