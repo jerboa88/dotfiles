@@ -5,17 +5,40 @@
    id="svg4"
    width="768"
    height="768"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.20048503"
+     inkscape:cx="384.06858"
+     inkscape:cy="391.55043"
+     inkscape:window-width="2192"
+     inkscape:window-height="1177"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
   <defs
      id="defs8">
     <filter
        style="color-interpolation-filters:sRGB;"
        id="filter3066"
-       x="0"
-       y="0"
-       width="1.015625"
-       height="1.0117188">
+       x="-0.015625"
+       y="-0.01171875"
+       width="1.03125"
+       height="1.0234375"
+       inkscape:label="Drop Shadow">
       <feFlood
          flood-opacity="1"
          flood-color="rgb(239,255,115)"
@@ -41,8 +64,41 @@
          in="SourceGraphic"
          in2="offset"
          operator="over"
-         result="composite2"
+         result="fbSourceGraphic"
          id="feComposite3064" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix948" />
+      <feFlood
+         id="feFlood950"
+         flood-opacity="1"
+         flood-color="rgb(255,86,142)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite952"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur954"
+         in="composite1"
+         stdDeviation="0"
+         result="blur" />
+      <feOffset
+         id="feOffset956"
+         dx="-6"
+         dy="-6"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite958"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
     </filter>
   </defs>
   <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
