@@ -1,6 +1,6 @@
 <!-- Project Header -->
 <div align="center">
-  <img class="projectLogo" src="https://via.placeholder.com/256.jpg" alt="Project logo" title="Project logo" width="256">
+  <img class="projectLogo" src="icon.svg" alt="Project logo" title="Project logo" width="256">
 
   <h1 class="projectName">Dotfiles</h1>
 

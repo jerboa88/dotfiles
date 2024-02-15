@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 768 768"
+   version="1.1"
+   id="svg4"
+   width="768"
+   height="768"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter3066"
+       x="0"
+       y="0"
+       width="1.015625"
+       height="1.0117188">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(239,255,115)"
+         result="flood"
+         id="feFlood3056" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3058" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0"
+         result="blur"
+         id="feGaussianBlur3060" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset3062" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3064" />
+    </filter>
+  </defs>
+  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+  <path
+     id="path2"
+     style="fill:#101017;fill-opacity:1;filter:url(#filter3066)"
+     d="M 256 128 C 220.7 128 192 156.7 192 192 L 192 576 C 192 611.3 220.7 640 256 640 L 512 640 C 547.3 640 576 611.3 576 576 L 576 288 L 448 288 C 430.3 288 416 273.7 416 256 L 416 128 L 256 128 z M 448 128 L 448 256 L 576 256 L 448 128 z M 384 343.22266 A 81.660516 81.660516 0 1 1 384 506.54297 A 81.660516 81.660516 0 1 1 384 343.22266 z M 384 394.25977 A 30.622695 30.622695 0 1 0 384 455.50586 A 30.622695 30.622695 0 1 0 384 394.25977 z " />
+</svg>
