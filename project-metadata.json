@@ -1,0 +1,9 @@
+{
+  "$schema": "https://johng.io/schema/project-metadata.json",
+  "name": "Dotfiles",
+	"logoPath": "icon.svg",
+	"category": "Other",
+  "technologies": [
+    "Chezmoi"
+  ]
+}
