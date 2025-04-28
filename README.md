@@ -5,7 +5,7 @@
   <h1 class="projectName">Dotfiles</h1>
 
   <p class="projectBadges">
-    <img src="https://img.shields.io/badge/type-Config-2196f3.svg" alt="Project type" title="Project type">
+    <img src="https://johng.io/badges/category/Other.svg" alt="Project category" title="Project category">
     <img src="https://img.shields.io/github/languages/top/jerboa88/dotfiles.svg" alt="Language" title="Language">
     <img src="https://img.shields.io/github/repo-size/jerboa88/dotfiles.svg" alt="Repository size" title="Repository size">
     <a href="LICENSE">
