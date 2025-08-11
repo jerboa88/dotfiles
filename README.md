@@ -21,7 +21,7 @@
 </div>
 
 
-## Installation
+## 📦 Installation
 > [!NOTE]
 > If you want to customize this setup to suit your needs, I'd recommend forking this repo and then replacing `jerboa88` with your own GitHub username in the commands below
 
@@ -31,7 +31,7 @@
 4. If you are okay with the changes, you can apply them to your home directory with `chezmoi apply -v`
 
 
-## Usage
+## 🕹️ Usage
 See the [Chezmoi docs](https://www.chezmoi.io/quick-start/) for more detailed instructions.
 
 ### Making local changes
@@ -61,7 +61,7 @@ git push
 ```
 
 
-## License
+## 🧾 License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 
